@@ -1,0 +1,157 @@
+
+body {
+	font-family: 'Happy Monkey', cursive;
+	background-image: url(img/5635.png);
+	background-size: 100%;	
+	background-position: center;
+	background-attachment: fixed;
+}
+/*========Barra de navegação========*/
+
+/*........Logo do site........*/
+.img-logo{
+	position: relative;
+	bottom: 18px;
+	height: 170px;
+	width: 270px;
+	display: block;
+	background: url('img/logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+@media screen and (max-width: 550px) {
+ 
+.img-logo {height: 100px; width: 200px;}
+
+}
+
+
+/*........configurações da barra de navegação........*/
+nav.navbar-transparente{
+	padding: 20px 10px;
+	background: rgba(217, 135, 25, 0.6);
+	border: none;
+}
+
+/*........configuração dos botões de navegação........*/
+.btn{
+	background: transparent;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    margin-top: 10px;
+
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: black;
+	padding: 4px 4px;
+}
+
+.btn:hover{
+	background-color: #FB7E01;
+	transition: background 0.40s, color 0.40s;
+}
+
+
+/*........Traço divisor dos botões........*/
+.divisor{
+	width: 1px;
+	height: 30px;
+	background: white;
+	margin: 16px 10px; 
+}
+
+@media screen and (max-width: 767px) {
+ 
+.divisor {background: transparent;}
+
+}
+/*........Término da barra de navegação........*/
+
+/*========Início conteúdo do site========*/
+
+/*........Slide........*/
+.mySlides{
+	height: 700px;
+	width: 900px;
+}
+
+/*........ Área de produtos........*/
+.produtos{
+	background-image: url(img/5635.png);
+	background-size: 100%;	
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+.hr{
+	border: 90px;
+    height: 20px;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/*.....Estilização da galeria de fotos da área 'produto'.....*/
+div.gallery {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+div.gallery:hover {
+    background: rgba(255, 255, 255, 0.6);
+
+}
+
+div.gallery img {
+    width: 100%;
+    height: 170px;
+    width: 390px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+/*........Término da área de produtos........*/
+
+/*========Ínicio do rodapé========*/
+
+footer{
+	background: rgba(217, 135, 25, 0.6);
+}
+
+.img-rodape{
+	position: relative;
+	bottom: 10px;
+	height: 100px;
+	width: 200px;
+	display: block;
+	background: url('img/logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+.midias{
+	float: right;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/*========Tipografia========*/
+h2{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 15px;
+}

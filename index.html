@@ -1,113 +1,188 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-	<title>CakeBox | A verdadeira festa na caixa</title>
-	<meta charset="utf-8" />
-	<meta http-equiv="x-ua-compatible" content="IE=Edge"/> 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700" rel="stylesheet" />
-	<link rel="shortcut icon" href="img/ico.ico" type="image/x-icon" />
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-	<link href="css/bootstrap.css" rel="stylesheet">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link href="https://fonts.googleapis.com/css?family=Happy+Monkey" rel="stylesheet" />
 
+    <title>CakeBox | A verdadeira festa na caixa</title>
+    <link rel="icon" href="img/logo.png">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" media="print" href="print.css" /> 
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-
 <body>
+    <!--========Barra de navegação========-->
+    <nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+        <div class="container">
+            <div class="navbar-header">
 
-	<div class="container">
-		<!--..................-Barra de navegação.................-->
-		<div class="row">
-			<div class="page-header">
-				<div id="nav">
-					<div class="area col-xs-12">
-						<h1><a href="index.html"><img class="img-responsive logo" src="img/logo.png"></a></h1>
-						<div class="menu">	
-							<a class="minu" href="#">Monte sua Festa</a>
-							<img class="linham" src="img/linham.png" />
-							<a class="minu" href="#">Sobre</a> <br />
-				<!--adicionar número ao lado do logo-->
-							<img src="img/wpplogo.png" class="img-responsive wpp"/> 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--........................SlideShow......................-->
-		<div class="row">
-			<img class="mySlides" src="img/foto1.jpg" style="width:100%">
-			<img class="mySlides" src="img/foto2.jpg" style="width:100%">
-			<img class="mySlides" src="img/foto3.jpg" style="width:100%">
-			<img class="mySlides" src="img/foto4.jpg" style="width:100%">
-			<img class="mySlides" src="img/foto5.jpg" style="width:100%">
+                <!--........Botão toggle........-->
+                <button type="button" class="navbar-toggle collapsed"
+                        data-toggle="collapse" data-target="#barranav">
+                    <span class="sr-only">Alternar navegação</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-			<script type="text/javascript" src="js/slide.js"></script> 
-		</div>
-		<!--...............Conteúdo do site.............-->
-		<h2 class="h2 postagem">Escolha sua caixa</h2>
-		<div class="container marketing areaprincipal">
-		<div class="row">
+                <!--........Logo do site........-->
+                <a href="index.html" class="navbar-brand">
+                    <span class="img-logo">CakeBox</span>
+                </a>
+            </div>
 
-				<div class="col-sm-4">
-				<img class="rounded-circle" src="img/imagem1.jpg" alt="Generic placeholder image" width="160" height="160">
-				<h2>Caixa 1</h2>
-				<ul>
-					<li>Bolo para 30 pessoas</li>
-					<li>2 latas de refrigerante</li>
-				    <li>40 coxinhas</li>
-				    <li>30 docinhos</li>
-				    <li>Descartáveis</li>
-				</ul>
-				<p>
-					<a class="btn btn-secondary" href="#" role="button">Ver caixa &raquo;</a>
-				</p>
-				</div>
+            <!--........Botões de navegação........-->
+            <div class="collapse navbar-collapse" id="barranav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="btn"><a href="#">Home</a></li>
+                    <li class="btn"><a href="#">Monte sua festa</a></li>
+                    <li class="btn"><a href="#">Nossos produtos</a></li>
+                    <li class="divisor" role="separator"></li>
+                    <li class="btn"><a href="#">Contato</a></li>
+                    <li class="btn"><a href="#">Sobre</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--........Fim da barra de navegação........-->
 
-				<div class="col-sm-4">
-				<img class="rounded-circle" src="img/imagem2.jpg" alt="Generic placeholder image" width="160" height="160">
-				<h2>Caixa 1</h2>
-				<ul>
-					<li>Bolo para 30 pessoas</li>
-					<li>2 latas de refrigerante</li>
-				    <li>40 coxinhas</li>
-				    <li>30 docinhos</li>
-				    <li>Descartáveis</li>
-				</ul>
-				<p>
-					<a class="btn btn-secondary" href="#" role="button">Ver caixa &raquo;</a>
-				</p>
-				</div>
+    <!--========Conteúdo do site========-->
 
-				<div class="col-sm-4">
-				<img class="rounded-circle" src="img/imagem3.jpg" alt="Generic placeholder image" width="160" height="160">
-				<h2>Caixa 1</h2>
-				<ul>
-					<li>Bolo para 30 pessoas</li>
-					<li>2 latas de refrigerante</li>
-				    <li>40 coxinhas</li>
-				    <li>30 docinhos</li>
-				    <li>Descartáveis</li>
-				</ul>
-				<p>
-					<a class="btn btn-secondary" href="#" role="button">Ver caixa &raquo;</a>
-				</p>
-				</div>
+    <!--.....Slide.....-->
+    <div class="row">
+        <div>
+            <img class="mySlides" src="img/foto1.jpg" style="width:100%">
+            <img class="mySlides" src="img/foto2.jpg" style="width:100%">
+            <img class="mySlides" src="img/foto3.jpg" style="width:100%">
+            <img class="mySlides" src="img/foto4.jpg" style="width:100%">
+            <img class="mySlides" src="img/foto5.jpg" style="width:100%">
 
-			</div>
-			<hr class="featurette-divider">
-		</div>
+            <script type="text/javascript" src="js/slide.js"></script> 
+        </div> 
+    </div>
 
-	</div>
-	<!--................Rodapé do site..............-->
-			<footer class="w3-bar w3-black w3-hide-small">
-				<div class="container">
-					<div class="navbar-header">
-						<a href="https://www.facebook.com/cakeboxnatal/" class="navbar-brand"><img class="midia" src="img/fb.png"></a>
-						<a href="https://www.instagram.com/cakeboxnatal/" class="navbar-brand"><img class="midia" src="img/insta.png"></a>
-					</div>
-				</div>
+    <!--........Área de produtos........-->
+    <section class="produtos">
+            <hr class="hr">
+            <div class="container">
+                <h2>Nossos produtos</h2>
+            <div class="row">
 
-			</footer>
+                <!--........Fotos da galeria........-->
+                <div class="col-md-4 ">
+                    <div class="gallery">
+                      <a target="_blank" href="img/img1.jpg">
+                        <img src="img/img1.jpg" class="img-responsive">
+                      </a>
+                      <div class="desc">Docinhos</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="gallery">
+                      <a target="_blank" href="img/img2.png">
+                        <img src="img/img2.png" class="img-responsive">
+                      </a>
+                      <div class="desc">Docinhos</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="gallery">
+                      <a target="_blank" href="img/img3.jpg">
+                        <img src="img/img3.jpg" class="img-responsive">
+                      </a>
+                      <div class="desc">Docinhos</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="gallery">
+                      <a target="_blank" href="img/img4.png">
+                        <img src="img/img4.png" class="img-responsive">
+                      </a>
+                      <div class="desc">Docinhos</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="gallery">
+                      <a target="_blank" href="img/img5.jpg">
+                        <img src="img/img5.jpg" class="img-responsive">
+                      </a>
+                      <div class="desc">Docinhos</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="gallery">
+                      <a target="_blank" href="img/img5.jpg">
+                        <img src="img/img5.jpg" class="img-responsive">
+                      </a>
+                      <div class="desc">Docinhos</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--........Término da área de produtos........-->
+
+    <!--========ínicio do rodapé========-->
+    <footer class="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="index.html" class="navbar-brand">
+                        <span class="img-rodape">CakeBox</span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <h4><br/>Copyright © 2017 Cake Box - Desenhado & Desenvolvido por Marina Souza e Breno Wesley</h4>
+                </div>
+
+                <div class="col-md-3">
+                    <h4>. cakeboxnatal@gmail.com</h4>
+                    <h4>. Rua Alameda das Mansões, 456</h4>
+                    <h4>. Whatssapp:(84)91234-5678</h4>
+                </div>
+
+                <div class="col-md-3">
+                    <ul class="nav">
+                        <li class="midias"> <a href="https://www.facebook.com/cakeboxnatal/"> 
+                                <img src="img/fb.png">
+                            </a> 
+                        </li>
+
+                        <li class="midias"> <a href="https://www.facebook.com/cakeboxnatal/"> 
+                                <img src="img/insta.png">
+                            </a> 
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

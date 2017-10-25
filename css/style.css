@@ -6,14 +6,13 @@
 body{
 	font-size: 16px;
 	font-family: 'Josefin Sans', Segoe Print, sans-serif;
-	background: #F5F9FC;
+	background-image: url(../img/5635.png);
 }
 
 /***********Barra de navegação***********/
 #nav{
-	background: #FFFFFF;
 	height: 190px;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 .area{
@@ -22,14 +21,17 @@ body{
 }
 
 .logo{
-	padding: 0px;
-	margin: 0px;
+	padding-top: 15px;
+	margin-left: 70px;
 	float: left;
+	height: 200px;
+	width: 200px;
 }
 
 .wpp{
-	position: relative;
-	top: 40px;
+	float: right;
+	top: 0px;
+	padding-top: 3px;
 }
 
 .menu{
@@ -92,10 +94,9 @@ h2.h2{
 }
 
 /*************Rodapé do site****************/
-footer{
-	background: #FFFFFF;
-	height: 50px;
-	padding-top: 0px;
+.footer{
+	background: black;
+
 	float 
 
 }
